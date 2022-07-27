@@ -1,5 +1,6 @@
 module.exports = function toReadable (number) {
     const obj = {
+        0: 'zero',
         1: 'one' ,
         2: 'two' ,
         3: 'three' ,
@@ -22,7 +23,7 @@ module.exports = function toReadable (number) {
         19: 'nineteen' ,
         20: 'twenty' ,
         30: 'thirty' ,
-        40: 'fourty' ,
+        40: 'forty' ,
         50: 'fifty' ,
         60: 'sixty' ,
         70: 'seventy' ,
